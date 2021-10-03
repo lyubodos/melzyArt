@@ -2,19 +2,19 @@
 @import 'https://use.fontawesome.com/releases/v5.15.2/css/all.css';
 
 .main-container{
-    margin: 100px 230px;
+    margin: 100px 400px;
     font-family: "Oxygen";
     height: 100vh;
-
 }
 
 .main-container_general{
     display: flex;
+
 }
 
 
 .main-container_extras{
-    margin-top: 250px;
+    margin-top: 300px;
 }
 
 .main-container{
