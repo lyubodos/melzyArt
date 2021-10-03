@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+header {
+    background-color: #F9F3DF;
+    border: 0.5px solid black;
+    font-size: 18px;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.gift-nav{
+    padding: 0;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+
+.gift-log {
+    float: right;
+    margin: 20px 0;
+ }
+ 
+
+.gift-nav li {
+    margin: 0 8px;
+    clear: both;
+}
+
+.gift-log li{
+    margin: 0 10px;
+ }
+
+li > a:hover {
+    color: ivory;
+}
+
+li > a:active {
+    color: red;
+}
+
+.title-container{
+    font-family: "Bonheur Royale";
+    font-size: 25px;
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.title-container h2 {
+    margin: 0;
+    text-align: center;
+}
+
