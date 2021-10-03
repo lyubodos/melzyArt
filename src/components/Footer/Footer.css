@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: #e9b776;
+    color: #482600;
+    padding: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.site-version{
+    color: #638DC5;
+    margin-right: 20px;
+}

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "./Header.css";
 
 
 export default function Header() {
@@ -12,8 +13,7 @@ export default function Header() {
                     <li><a href="">News</a></li>
                 </ul>
 
-               
-
+            
                 <ul className="gift-log">
                     <li><a href="">Login</a></li>
                     <li><a href="">Logout</a></li>

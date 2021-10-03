@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Oxygen:wght@300&display=swap');
 
 header {
     background-color: #F9F3DF;
-    border: 0.5px solid black;
+    border: 0.5px solid purple;
     font-size: 18px;
 }
 
 header li {
+    font-size: 30px;
+    font-family: "Ephesis";
     list-style: none;
     display: inline-block;
 }
@@ -19,14 +22,14 @@ a{
 
 .gift-nav{
     padding: 0;
-    margin: 20px 0;
+    margin: 10px 0;
     display: inline-block;
 }
 
 
 .gift-log {
     float: right;
-    margin: 20px 0;
+    margin: 10px 0;
  }
  
 
@@ -40,7 +43,8 @@ a{
  }
 
 li > a:hover {
-    color: ivory;
+    color: lightblue;
+    font-weight: 800;
 }
 
 li > a:active {
@@ -48,16 +52,24 @@ li > a:active {
 }
 
 .title-container{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(133,191,254,1) 51%, rgba(0,212,255,1) 100%);
     font-family: "Bonheur Royale";
-    font-size: 25px;
-    margin: 20px 0;
+    font-size: 36px;
+    margin: 0;
     padding: 0;
     text-align: center;
+    
 }
 
 
 .title-container h2 {
     margin: 0;
     text-align: center;
+    padding: 10px;
 }
 
+
+.title-container h2:hover {
+  cursor: default;
+}
